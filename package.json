@@ -1,0 +1,33 @@
+{
+  "fitbit": {
+    "appUUID": "9415017b-a661-4425-af9a-5e60eca0da87",
+    "appType": "app",
+    "appDisplayName": "GuessMe",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "access_internet",
+      "run_background",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "GuessMe"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

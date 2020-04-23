@@ -1,0 +1,10 @@
+<svg>
+  <rect id="background" pointer-events="visible">
+    <text id="clockBattery" class="defaultText">100 %</text>
+    <text id="mainClock" class="defaultText">0</text>
+    <text id="activityType" class="defaultText"></text>
+    <image id="play" href="play.png"/>
+    <image id="stop" href="stop.png"/>
+    <image id="send" href="send.png"/>
+  </rect>
+</svg>
